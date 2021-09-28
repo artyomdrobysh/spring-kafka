@@ -2,7 +2,8 @@ POST http://localhost:8080/
 Content-Type: application/json
 
 {
-    "message": "Test message"
+    "content": "asd",
+    "type": "ERROR_RECOVER"
 }
 
 ###

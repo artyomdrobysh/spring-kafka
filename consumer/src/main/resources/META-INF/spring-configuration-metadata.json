@@ -1,0 +1,29 @@
+{
+    "properties": [
+        {
+            "name": "app.kafka.retry-max-attempts",
+            "type": "java.lang.String",
+            "description": "Max attempts of retry to consume Kafka message."
+        },
+        {
+            "name": "app.kafka.retry-back-off-period",
+            "type": "java.lang.String",
+            "description": "Back off period between retries."
+        },
+        {
+            "name": "app.kafka.recover-max-attempts",
+            "type": "java.lang.String",
+            "description": "Max attempts of recover to consume Kafka message."
+        },
+        {
+            "name": "app.kafka.recover-back-off-period",
+            "type": "java.lang.String",
+            "description": "Back off period between recovers."
+        },
+        {
+            "name": "app.kafka.topics.data",
+            "type": "java.lang.String",
+            "description": "Name of topic with data."
+        }
+    ]
+}

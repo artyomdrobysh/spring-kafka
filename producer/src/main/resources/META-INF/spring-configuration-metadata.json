@@ -1,0 +1,9 @@
+{
+    "properties": [
+        {
+            "name": "app.kafka.topics.data",
+            "type": "java.lang.String",
+            "description": "Name of topic with data."
+        }
+    ]
+}

@@ -11,5 +11,9 @@ spring:
 
 app:
   kafka:
+    retry-max-attempts: 3
+    retry-back-off-period: 2000
+    recover-max-attempts: 2
+    recover-back-off-period: 7000
     topics:
       data: data
