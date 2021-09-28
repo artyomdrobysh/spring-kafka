@@ -1,6 +1,9 @@
 spring:
+  application:
+    name: producer
   kafka:
     producer:
+      client-id: ${spring.application.name}-${random.value}
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
 

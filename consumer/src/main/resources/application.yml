@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: consumer
+  kafka:
+    consumer:
+      auto-offset-reset: earliest
+      client-id: ${spring.application.name}-${random.value}
+      group-id: test-consumers-group
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+app:
+  kafka:
+    topics:
+      data: data
